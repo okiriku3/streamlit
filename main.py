@@ -3,6 +3,13 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 import time
+import yfinance as yf
+
+
+ticker_info = yf.Ticker("9984.T")
+print('ticker_info')
+
+
 
 st.title('streamlit 超入門')
 
